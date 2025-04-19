@@ -1,4 +1,4 @@
-# 📚 Books Dataset: Sales, Ratings & Trends Analysis
+# Optimizing Product Assortment and Pricing Strategy for BigBasket
 
 ### **Project Category**: Exploratory Data Analysis  
 ### **Tools & Technologies**:  
@@ -9,7 +9,7 @@
 ## 🔍 Overview
 BigBasket, India's leading online grocery platform, offers a vast range of products across multiple categories and brands. As the platform grows, maintaining an optimal product assortment, competitive pricing, and a diverse brand portfolio becomes increasingly important. This analysis of BigBasket’s product catalog (with over 28,000 products) identifies gaps, inefficiencies, and strategic opportunities for better assortment planning, pricing strategies, and brand positioning.
 
-![BigBasket Image]()
+![BigBasket Image](https://drive.google.com/file/d/1-OWtWGeZRBq2RAXzhZ8oxhQhef8qYTWE/view?usp=sharing)
 
 ---
 
