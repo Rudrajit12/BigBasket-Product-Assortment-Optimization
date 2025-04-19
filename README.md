@@ -22,18 +22,18 @@ This project undertakes a comprehensive analysis of BigBasket’s current produc
 
 This analysis is based on four core strategic pillars:
 
-1. Product Assortment Optimization
+1. **Product Assortment Optimization**
 
-2. Pricing Strategy Analysis
+2. **Pricing Strategy Analysis**
 
-3. Brand and Category Positioning
+3. **Brand and Category Positioning**
 
-4. Opportunity and Gap Identification
+4. **Opportunity and Gap Identification**
 
 ---
 
 ## 📂 Dataset Description
-**[Download Dataset]()**
+**[Download Dataset](https://drive.google.com/uc?export=view&id=1VM9JBEgFoWySWY4GBanb6BA1eFCIRcDd)**
 
 The dataset used in this analysis comprises 28,000+ products listed on BigBasket's platform. Each record represents a unique product offering and includes a variety of attributes related to product identity, categorization, pricing, and brand information.
 
@@ -60,17 +60,17 @@ This dataset provides a rich foundation for analyzing category depth, price stra
 
 Before analysis, essential data preprocessing steps were applied:
 
-1. Missing Values: Handled missing values in fields like product name, description, and ratings.
+1. **Missing Values**: Handled missing values in fields like product name, description, and ratings.
 
-2. Redundant Columns: Removed unnecessary columns like the index.
+2. **Redundant Columns**: Removed unnecessary columns like the index.
 
-3. Standardized Column Names: Ensured consistency by using lowercase and underscores for column names.
+3. **Standardized Column Names**: Ensured consistency by using lowercase and underscores for column names.
 
-4. Optimized Data Types: Categorical columns were converted for better memory management.
+4. **Optimized Data Types**: Categorical columns were converted for better memory management.
 
-5. Feature Engineering: Added features like Discount Amount and Discount Percentage.
+5. **Feature Engineering**: Added features like Discount Amount and Discount Percentage.
 
-6. Outlier Handling: Retained outliers in prices, which reflect high-end niche products.
+6. **Outlier Handling**: Retained outliers in prices, which reflect high-end niche products.
 
 ---
 
@@ -115,40 +115,70 @@ This analysis is structured around four core strategic pillars:
 
 ---
 
-## 📊 Key Insights & Recommendations
+## 📊 Data Exploration & Key Insights
 The analysis covered multiple areas using univariate, bivariate, and multivariate analysis techniques:
 
-1. Univariate Analysis
+1. **Univariate Analysis**
+
 Key Insight: Price distributions were heavily right-skewed, with most products priced under ₹500.
 
-2. Bivariate & Multivariate Analysis
+![Sale Price Distribution](https://drive.google.com/uc?export=view&id=1xf2Qal1FFkcc0r49NOMF39-B2cMF9xml)
+
+2. **Bivariate & Multivariate Analysis**
+
 Key Insight: Certain brands positioned themselves with higher pricing across subcategories, and opportunities for tiered pricing strategies were identified.
 
-3. Product Assortment Analysis
+![Subcategories Lacking Tiered Options](https://drive.google.com/uc?export=view&id=1pThZRUjg0YpcRkpbGbYn0kLWcae_ESk0)
+
+3. **Product Assortment Analysis**
+
 Key Insight: Some categories were overrepresented, leading to internal competition. Other subcategories lacked brand diversity, creating a monopoly risk.
 
-4. Pricing Strategy Analysis
+![Product Count by Category](https://drive.google.com/uc?export=view&id=1bzfggZdfFnmDoggWXtZATDF-ADvqsEYn)
+
+![Product Count by Subcategory](https://drive.google.com/uc?export=view&id=1aGVXebqf_pbsI1f69yDimsbf4MFbXpgR)
+
+4. **Pricing Strategy Analysis**
+
 Key Insight: Some subcategories showed pricing inconsistencies, highlighting the need for better pricing governance.
 
-5. Brand & Category Positioning
+![Avg Sale Price by Category](https://drive.google.com/uc?export=view&id=1Xdqy3ZoLs3hsif_Iu3p1Hon-yytBicQI)
+
+![Avg Sale Price by Subcategory](https://drive.google.com/uc?export=view&id=1RoP6slopnbRfkY5v88PfdcNEf7SE_1ua)
+
+5. **Brand & Category Positioning**
+
 Key Insight: Certain emerging brands were highly rated but lacked visibility, indicating potential growth opportunities.
 
-6. Gap & Opportunity Analysis
+![Brand Segmentation](https://drive.google.com/uc?export=view&id=1YqS_nmhbxI1LGyJvPe5eQEaxJSUTlTVg)
+
+![Brand Positioning](https://drive.google.com/uc?export=view&id=1I6XXYmzbJTix1TAEfrpUo8xPhbwAbeh7)
+
+6. **Gap & Opportunity Analysis**
+
 Key Insight: Opportunities for product bundling and premium product expansion in underrepresented subcategories were identified.
+
+![Subcategories with Bundling Opportunity](https://drive.google.com/uc?export=view&id=1hPxbKKtcTkakZBUACLZgyUx4PrbQsNKN)
+
+![Subcategories with Few Brands and High Prices](https://drive.google.com/uc?export=view&id=15GQswRMdiUNgHDobLb4g6WeVDC5AjVR_)
 
 ---
 
-## 🛍️ Recommendations
-Product Assortment Optimization
+## 🛍️ Key Findings & Recommendations
+**Product Assortment Optimization**
+
 Action: Reduce redundancy in overrepresented subcategories, and expand product offerings in high-demand but underrepresented segments.
 
-Pricing Strategy Enhancement
+**Pricing Strategy Enhancement**
+
 Action: Introduce tiered pricing to cater to budget, mid-range, and premium customers. Standardize pricing logic across categories.
 
-Brand and Category Positioning
+**Brand and Category Positioning**
+
 Action: Promote emerging high-rated brands and balance brand concentration in categories to mitigate supply risks.
 
-Gap and Opportunity Identification
+**Gap and Opportunity Identification**
+
 Action: Develop bundled offerings and expand into high-price, low-assortment subcategories.
 
 ---
@@ -195,8 +225,9 @@ jupyter notebook
 
 ## References
 
-1. [Kaggle - Books Sales and Ratings - EDA](https://www.kaggle.com/code/faresabbasai2022/books-sales-and-ratings-eda)
-2. [Kaggle - Book Sales and Ratings](https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings)
+1. [Kaggle - BigBasket Products](https://www.kaggle.com/datasets/chinmayshanbhag/big-basket-products)
+2. [BigBasket Product Case Study](https://www.theproductfolks.com/product-management-case-studies/improve-the-userbase-of-bigbasket)
+3. [BigBasket Case Study](https://www.bbmatrix.ai/case-studies/big-basket)
 
 ---
 
