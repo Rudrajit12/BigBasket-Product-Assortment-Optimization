@@ -2,9 +2,11 @@
 
 ### **Project Category**: Exploratory Data Analysis  
 ### **Tools & Technologies**:  
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-43B02A?style=for-the-badge&logo=seaborn&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-43B02A?style=for-the-badge&logo=seaborn&logoColor=white) 
 
 **Other Tools**: NumPy, Jupyter Notebooks
+
+---
 
 ## 🔍 Overview
 BigBasket, India's leading online grocery platform, offers a vast range of products across multiple categories and brands. As the platform grows, maintaining an optimal product assortment, competitive pricing, and a diverse brand portfolio becomes increasingly important. This analysis of BigBasket’s product catalog (with over 28,000 products) identifies gaps, inefficiencies, and strategic opportunities for better assortment planning, pricing strategies, and brand positioning.
@@ -209,16 +211,20 @@ Action: Develop bundled offerings and expand into high-price, low-assortment sub
 The analysis steps are conducted in Python Jupyter Notebooks. For running the analysis:
 
 Install required libraries:
+```
 pip install pandas numpy matplotlib seaborn
+```
 
 Launch the notebook in Jupyter:
+```
 jupyter notebook
+```
 
 ---
 
 ## Resources
 
-- **IPYNB Notebook**: [Colab Link](https://colab.research.google.com/drive/1_yLgcjAHwjWokom_zBbConsCq27GFX53?usp=sharing)  
+- **IPYNB Notebook**: [Colab Link](https://colab.research.google.com/drive/1FyxNydmLhS0dtioZpL7klG8TwpoIQnSQ?usp=sharing)  
 - **GitHub Repository**: [GitHub Link](https://github.com/Rudrajit12/BigBasket-Product-Assortment-Optimization) 
 
 ---
