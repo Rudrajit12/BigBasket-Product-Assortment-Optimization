@@ -225,7 +225,8 @@ jupyter notebook
 ## Resources
 
 - **IPYNB Notebook**: [Colab Link](https://colab.research.google.com/drive/1FyxNydmLhS0dtioZpL7klG8TwpoIQnSQ?usp=sharing)  
-- **GitHub Repository**: [GitHub Link](https://github.com/Rudrajit12/BigBasket-Product-Assortment-Optimization) 
+- **GitHub Repository**: [GitHub Link](https://github.com/Rudrajit12/BigBasket-Product-Assortment-Optimization)
+- **Tableau Dashboard**: [Tableau Link](https://public.tableau.com/views/BigBasketProductAssortmentAnalysis/BBProductAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
